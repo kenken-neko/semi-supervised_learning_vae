@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "semi-supervised_learning_vae"
+version = "0.1.0"
+description = ""
+authors = []
+
+[tool.poetry.dependencies]
+python = "^3.8"
+torch = "^1.12.1"
+torchvision = "^0.13.1"
+typer = "^0.6.1"
+ignite = "^1.1.0"
+pytorch-ignite = "^0.4.10"
+tensorboardX = "^2.5.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.10.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
