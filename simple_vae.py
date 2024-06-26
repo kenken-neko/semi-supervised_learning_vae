@@ -9,10 +9,8 @@ from tensorboardX import SummaryWriter
 from torch import nn, optim
 from torch.nn import functional as F
 from torch.utils.data import DataLoader
-from torchvision import datasets, transforms
 from torchvision.datasets import MNIST
 from torchvision.transforms import Compose, ToTensor
-from torchvision.utils import save_image
 
 # For MNIST dataset
 FLOATTEN_IMAGE_DIMS = 28 * 28
